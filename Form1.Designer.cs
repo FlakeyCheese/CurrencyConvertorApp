@@ -68,6 +68,7 @@
             txtAmount.Name = "txtAmount";
             txtAmount.Size = new Size(116, 23);
             txtAmount.TabIndex = 2;
+            txtAmount.Text = "1";
             // 
             // lblFrom
             // 
@@ -85,13 +86,13 @@
             cmbFrom.Location = new Point(221, 140);
             cmbFrom.Margin = new Padding(4, 3, 4, 3);
             cmbFrom.Name = "cmbFrom";
-            cmbFrom.Size = new Size(140, 23);
+            cmbFrom.Size = new Size(183, 23);
             cmbFrom.TabIndex = 4;
             // 
             // lblTo
             // 
             lblTo.AutoSize = true;
-            lblTo.Location = new Point(417, 103);
+            lblTo.Location = new Point(446, 103);
             lblTo.Margin = new Padding(4, 0, 4, 0);
             lblTo.Name = "lblTo";
             lblTo.Size = new Size(23, 15);
@@ -101,10 +102,10 @@
             // cmbTo
             // 
             cmbTo.FormattingEnabled = true;
-            cmbTo.Location = new Point(420, 140);
+            cmbTo.Location = new Point(449, 140);
             cmbTo.Margin = new Padding(4, 3, 4, 3);
             cmbTo.Name = "cmbTo";
-            cmbTo.Size = new Size(140, 23);
+            cmbTo.Size = new Size(179, 23);
             cmbTo.TabIndex = 4;
             // 
             // btnConvert
@@ -141,7 +142,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(586, 351);
+            ClientSize = new Size(728, 351);
             Controls.Add(lblLastUpdated);
             Controls.Add(lblResult);
             Controls.Add(btnConvert);
